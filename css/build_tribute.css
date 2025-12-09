@@ -68,23 +68,11 @@ a {
      font-style: italic;
  }
 
- #qr-code
- {
-    width:  100px;
-    height: 100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    aspect-ratio: 3 / 4;
-    float: right;
-
-}
-
  .logo-tagline-bot {
      color: #000000;
      font-size: 1em;
      font-family: Verdana, Arial, Helvetica, sans-serif;
      font-style: italic;
-
  }
 
 body {
@@ -124,13 +112,20 @@ body {
 #tribute-display {
     margin: 0 auto;
 }
+.dummy-content {
+    visibility: hidden;
+}
 #page-1 {
     max-width: 600px;
+    text-overflow:      ellipsis;
+    overflow:           hidden;
+    background-image:   url("../images/2025-christmas-photo-1.jpg");
+    background-size:    cover; 
+    background-repeat:  round;
     padding: 10px;
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: #ffffff;
     color: #000000;
-    border: 1px solid #ff0000;
     box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
 }
 #page-2 {
@@ -179,39 +174,25 @@ ol,ul {
     font-size: 1.125em;
     font-weight: bold;
 }
-#order-of-service {
-    padding: 15px;
-    border: 1px solid #000000;
-}
-#order-service-items {
-    margin: 15px auto;
-    overflow: hidden;
-    border: 1px solid #000000;
-}
-#order-service-left {
-    float: left;
-}
-#order-service-right {
-    float: right;
+
+.christmas-accent-color {
+    font-size: 1.125em;
+    text-shadow: 5px 5px 5px #000000;
+    background-color: #2F7336;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
-#bearers-container {
-    margin: 15px auto;
-    overflow: hidden;
-    border: 1px solid #000000;
-}
-#pall-bearers {
-    margin: 20px;
-    background-color: #ffffff;
-    float: left;
-}
-#flower-bearers {
-    margin: 20px;
-    background-color: #ffffff;
-    float: right;
-}
-.accent-color {
-    background-color: #c2adeb;
+.newyear-accent-color {
+    font-size: 1.125em;
+    text-shadow: 5px 5px 5px #000000;
+    background-color: #aa0000;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 ol {
@@ -236,13 +217,15 @@ li ol li:hover {
 
 #page-1-title-1-text
 {
-    color: #000000;
+/*  color: #FFD700; */
+    background: #aa0000;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #000000;
     text-align: center;
-    font-size: 1.065em;
+    font-size: 1.50em;
     font-style: italic;
     padding-left: 5px;
     padding-right: 5px;
-
 }
 
 #page-1-title-2 {
@@ -252,25 +235,32 @@ li ol li:hover {
 
 #page-1-title-2-text
 {
-    background: #c2adeb;
+    background: #aa0000;
+/*  background: #2F7336; */
+    text-shadow: 5px 5px 5px #000000;
+    color: #ffffff;
     font-size: 1.50em;
     font-style: italic;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+/*    box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-2-title-1 {
     margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
 #page-2-title-1-text
 {
-    background: #c2adeb;
+    background: #aa0000;
+    text-shadow: 5px 5px 5px #000000;
+    color: #ffffff;
     font-size: 1.50em;
     font-style: italic;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #page-2-title-2 {
@@ -279,17 +269,23 @@ li ol li:hover {
 }
 
 #page-2-title-2-text
-{
-    color: #000000;
+{    
+    background: #aa0000;
+    text-shadow: 5px 5px 5px #000000;
+    color: #ffffff;
     text-align: center;
-    font-size: 1.125em;
+    font-size: 1.50em;
     font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 1px solid #000000;
+/*   box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-3-title-1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
     text-align: center;
-    margin-bottom: 5px;
 }
 
 #page-3-title-1-text
@@ -297,27 +293,23 @@ li ol li:hover {
     background: #c2adeb;
     font-size: 1.50em;
     font-style: italic;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-#page-4-title-1 {
+#page-3-title-2 {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-#page-4-title-1-text
+#page-3-title-2-text
 {
     background: #c2adeb;
     font-size: 1.50em;
     font-style: italic;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-
-
-
-
 
 .first-caption {
     margin-top: 30px;
@@ -374,55 +366,59 @@ footer {
 #page-1-image
  {
     max-width:  100%;
-    background: #c2adeb;
-    margin-top: 5px;
+    background: #a5a5a5;
+    margin-top: 15px;
     margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
     aspect-ratio: 3 / 4;
     border-radius: 50%;
-    box-shadow: 12px 12px 16px 0 rgba(194,173,235,0.50),0 17px 50px 0 rgba(194,173,235,0.50);
+    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
 }
 
 #page-2-image
  {
     max-width:  100%;
-    background: #c2adeb;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    background: #000000;
+
     aspect-ratio: 3 / 4;
     border-radius: 50%;
-    box-shadow: 12px 12px 16px 0 rgba(194,173,235,0.50),0 17px 50px 0 rgba(194,173,235,0.50);
+    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
 }
 
 #page-1-figcaption {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 #page-1-figcaption-text {
-/*  background: #c2adeb; */
-    color: #000000;
-    font-size: 1.125em;
+    text-shadow: 5px 5px 5px #000000;
+    background: #aa0000;
+    color: #ffffff;
+    font-size: 1.25em;
     font-style: italic;
     margin-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
+/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-2-figcaption {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #page-2-figcaption-text {
-/*  background: #c2adeb; */
-    color: #000000;
+    text-shadow: 5px 5px 5px #000000;
+    background: #aa0000;
+    color: #ffffff;
     font-size: 1.125em;
     font-style: italic;
     margin-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
+/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #dad-photo
@@ -431,10 +427,8 @@ footer {
     height: 100px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 15px;
     aspect-ratio: 3 / 4;
     box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
-    float: lrft;
 }
 #mom-photo
  {
@@ -442,6 +436,7 @@ footer {
     height: 100px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-right: 15px;
     aspect-ratio: 3 / 4;
     box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
 }
@@ -483,10 +478,3 @@ border: 1px solid #000000;
 /*------------------------*/
 /*- Scott Family History -*/
 /*------------------------*/
-
-.first-p-header-top {
-    margin-top: 20px;
-}
-.p-header {
-
-}

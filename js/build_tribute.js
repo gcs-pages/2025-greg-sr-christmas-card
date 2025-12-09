@@ -23,29 +23,29 @@ let tributeData =
                         parameters:
                             {   color: 0,
 
-                                page_1_title_1: "<span id='page-1-title-1-text'><strong><i>September 24, 2025</i></strong></span>",
+                                page_1_title_1: "<span id='page-1-title-1-text'><strong><i>2025</i></strong></span>",
                                 
-                                page_1_title_2: "<span id='page-1-title-2-text'><strong><i>Happy Wedding Day!!!</i></strong></span>",
+                                page_1_title_2: "<span id='page-1-title-2-text'><strong><i>Merry Christmas</i></strong></span>",
 
-                                page_1_image: "images/greg-wedding-1.jpg",
+                                page_1_image: "images/2025-christmas-photo-1.jpg",
 
-                                page_1_caption: "<span id='page-1-figcaption-text'><strong><i>Gregory Jr and Deneisha</i></strong></span>",
+                                page_1_caption: "<span id='page-1-figcaption-text'><strong><i>From All of Us to You . . .</i></strong></span>",
 
-                                page_2_title_1: "<span id='page-2-title-1-text'><strong><i>God's Holy Matrimony...</i></strong></span>",
+                                page_2_title_1: "<span id='page-2-title-1-text'><strong><i>2026</i></strong></span>",
                                 
-                                page_2_title_2: "",
+                                page_2_title_2: "<span id='page-2-title-2-text'><strong><i>Happy New Year</i></strong></span>",
 
-                                page_2_image: "images/greg-wedding-2.jpg",
+                                page_2_image: "images/2025-new-year-photo-1.jpg",
 
-                                page_2_caption: "<span id='page-2-figcaption-text'><strong><i>Symbolized by These Rings...</i></strong></span>",
+                                page_2_caption: "<span id='page-2-figcaption-text'><strong><i>Be Safe and Responsible . . .</i></strong></span>",
 
-                                page_3_title_1: "<span id='page-3-title-1-text'><strong><i>What is It?</i></strong></span>",
+                                page_3_title_1: "<span class='christmas-accent-color'><strong><i>Merry Christmas</i></strong></span>",
                                 
-                                page_3_content: "<p>In <strong><i>God's</i></strong> eyes, the union of a man and a woman, two becoming one, as set forth by God, in the Garden of Eden, when God joined Adam and Eve together.</p><p class='text-center'><span class='p-header'><strong><i>Proverbs 18: [22]</i></strong></span></p><p><strong>22</strong>  Whoso findeth a wife findeth a good thing, and obtaineth favour of the Lord.</p><p class='text-center'><span class='p-header'><strong><i>Proverbs 31: [10-12]</i></strong></span></p><p><strong>10</strong> Who can find a virtuous woman? for her price is far above rubies.</p><p><strong>11</strong> The heart of her husband doth safely trust in her, so that he shall have no need of spoil.</p><p><strong>12</strong> She will do him good and not evil all the days of her life.</p><p class='text-center'><span class='p-header'><strong><i>Ephesians 5: [21-25]</i></strong></span></p><p><strong>21</strong> Submitting yourselves one to another in the fear of God.</p><p><strong>22</strong> Wives, submit yourselves unto your own husbands, as unto the Lord.</p>                                <p><strong>23</strong> For the husband is the head of the wife, even as Christ is the head of the church: and he is the saviour of the body.</p><p><strong>24</strong> Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing.</p><p><strong>25</strong> Husbands, love your wives, even as Christ also loved the church, and gave himself for it;</p><p class='text-center'><span class='p-header'><strong><i>Hewbrews 13: [4]</i></strong></span></p><p><strong>4</strong> Marriage is honourable in all, and the bed undefiled: but whoremongers and adulterers God will judge.</p>",
+                                page_3_title_2: "<span class='newyear-accent-color'><strong><i>Happy New Year</i></strong></span>",                           
 
-                                page_4_title_1: "<span id='page-4-title-1-text'><strong><i>Why Do It?</i></strong></span>",
-                                
-                                page_4_content: "<p><strong><i><span><strong><i>Gregory Jr,</i></strong></span></i></strong></p><p>Marriage is honorable and respectable. &nbsp;Your wife, <strong><i>Deneisha</i></strong>, and <strong><i>you</i></strong>, are joined together as one, in <strong><i>God's</i></strong> &nbsp;Holy Matrimony. &nbsp;Your mother and me pray God bless your marriage with the <strong><i>fruits of the spirit</i></strong> &nbsp;(love, joy, peace, long suffering, gentleness, goodness, faith, meekness, and temperance). </p><p><strong><i>Love You Both</i></strong>,<br><br><strong><i>Dad/Mom</i></strong></p><div><img id='dad-photo' src='images/g02s06gregory.jpg'alt='Dad Photo'><img id='mom-photo' src='images/g02s07christine.jpg'alt='Mom Photo'></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img id='qr-code' src='images/QR-Greg-Wedding-Card.png'alt='QR Code'><br><br><br><div class='logo-container'><ol class='logo-list'><li class='logo-li-item'><a href='' ><img class='logo-image'></a></li><li class='logo-li-item logo-tagline-bot'></li></ol></div>",
+                                page_3_content: "<p><span ><strong><i>As the song says . . .</i></strong></span>&nbsp;It's the most wonderful time of the year! &nbsp;With children jingle belling and everyone telling you, be of good cheer <strong>! ! !</strong> &nbsp;Your mother <strong>Christine</strong> and me wish everyone in our family Merry Christmas and that everyone be of good cheer. &nbsp;We also, wish there be <strong><i>Peace</i></strong> on earth and <strong><i>goodwill</i></strong> to all of you.</p><p><strong><i>What are God's gifts ? ? ?</i></strong> &nbsp;[<i>Galatians 5:22-23</i></span>] - But the fruits of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,  meekness, temperance: against such there is no law. &nbsp;We should all accept these gifts and practice them.</p>",
+
+                                page_3_content_2: "<p><strong><i>We pray everyone</i></strong> enjoy this joyous Holiday Season, and celebrate safely and responsibly, while bringing in the new year. &nbsp;Also that God bless each of us to be prosperous . . .</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><strong><i>Love</i></strong>,<br><br><strong><i>Mom/Dad</i></strong></p><div><img id='mom-photo' src='images/g02s07christine.jpg'alt='Mom Photo'><img id='dad-photo' src='images/g02s06gregory.jpg'alt='Dad Photo'></div><div class='logo-container'><ol class='logo-list'><li class='logo-li-item'><a href='' ><img class='logo-image'></a></li><li class='logo-li-item logo-tagline-bot'></li></ol></div>",
 
                                 author_salutation: "<div class='author-signature'><p>Created By:</p><img class='author-photo' src='images/g02s06gregory.jpg' alt='Author Photo'><p><i><span class='author'>Gregory Scott Sr.</i></span></p></div>"
                             }
@@ -68,10 +68,6 @@ let tributeData =
     let colorIndex = tributeData[0].tributee[i].parameters.color; // set tributee color . . .
     $("#color-switcher").attr("href", colorSchemes[colorIndex]);
 
-    if (tributeData[0].tributee[i].id == "011" || tributeData[0].tributee[i].id == "022" ) {
-        $("#page-1-image").addClass("border-radius");
-    }
-
     $("#page-1-title-1").html(tributeData[0].tributee[i].parameters.page_1_title_1);
     $("#page-1-title-2").html(tributeData[0].tributee[i].parameters.page_1_title_2);
 
@@ -85,12 +81,12 @@ let tributeData =
     $("#page-2-figcaption").html(tributeData[0].tributee[i].parameters.page_2_caption);
 
     $("#page-3-title-1").html(tributeData[0].tributee[i].parameters.page_3_title_1);
+    
+    $("#page-3-title-2").html(tributeData[0].tributee[i].parameters.page_3_title_2);
 
     $("#page-3-content").html(tributeData[0].tributee[i].parameters.page_3_content);
 
-    $("#page-4-title-1").html(tributeData[0].tributee[i].parameters.page_4_title_1);
-
-    $("#page-4-content").html(tributeData[0].tributee[i].parameters.page_4_content);
+    $("#page-3-content-2").html(tributeData[0].tributee[i].parameters.page_3_content_2);
 
     $("title").text("GCS - " + $("#page-1-title-2").text() + " " + $("#title-2").text());
     $("#main-content").html(tributeData[0].tributee[i].parameters.author_salutation);
