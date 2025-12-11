@@ -27,9 +27,9 @@ let tributeData =
                                 
                                 page_1_title_2: "<span id='page-1-title-2-text'><strong><i>Merry Christmas</i></strong></span>",
 
-                                page_1_image: "images/2025-christmas-photo-1.jpg",
+                                page_1_image: "images/2025-christmas-photo-3.jpg",
 
-                                page_1_caption: "<span id='page-1-figcaption-text'><strong><i>From All of Us to You . . .</i></strong></span>",
+                                page_1_caption: "<span id='page-1-figcaption-text'><strong><i>From All of Us to You!</i></strong></span>",
 
                                 page_2_title_1: "<span id='page-2-title-1-text'><strong><i>2026</i></strong></span>",
                                 
@@ -37,7 +37,7 @@ let tributeData =
 
                                 page_2_image: "images/2025-new-year-photo-1.jpg",
 
-                                page_2_caption: "<span id='page-2-figcaption-text'><strong><i>Be Safe and Responsible . . .</i></strong></span>",
+                                page_2_caption: "<span id='page-2-figcaption-text'><strong><i>Celebrate Responsibly . . .</i></strong></span>",
 
                                 page_3_title_1: "<span class='christmas-accent-color'><strong><i>Merry Christmas</i></strong></span>",
                                 
@@ -45,7 +45,9 @@ let tributeData =
 
                                 page_3_content: "<p><span ><strong><i>As the song says . . .</i></strong></span>&nbsp;It's the most wonderful time of the year! &nbsp;With children jingle belling and everyone telling you, be of good cheer <strong>! ! !</strong> &nbsp;Your mother <strong>Christine</strong> and me wish everyone in our family Merry Christmas and that everyone be of good cheer. &nbsp;We also, wish there be <strong><i>Peace</i></strong> on earth and <strong><i>goodwill</i></strong> to all of you.</p><p><strong><i>What are God's gifts ? ? ?</i></strong> &nbsp;[<i>Galatians 5:22-23</i></span>] - But the fruits of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,  meekness, temperance: against such there is no law. &nbsp;We should all accept these gifts and practice them.</p>",
 
-                                page_3_content_2: "<p><strong><i>We pray everyone</i></strong> enjoy this joyous Holiday Season, and celebrate safely and responsibly, while bringing in the new year. &nbsp;Also that God bless each of us to be prosperous . . .</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><strong><i>Love</i></strong>,<br><br><strong><i>Mom/Dad</i></strong></p><div><img id='mom-photo' src='images/g02s07christine.jpg'alt='Mom Photo'><img id='dad-photo' src='images/g02s06gregory.jpg'alt='Dad Photo'></div><div class='logo-container'><ol class='logo-list'><li class='logo-li-item'><a href='' ><img class='logo-image'></a></li><li class='logo-li-item logo-tagline-bot'></li></ol></div>",
+                                page_3_content_2: "<p><strong><i>We pray everyone</i></strong> enjoy this joyous Holiday Season, and celebrate safely and responsibly, while bringing in the new year. &nbsp;Also that God bless each of us to be prosperous . . .</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><strong><i>Love</i></strong>,<br><br><strong><i>Mom/Dad</i></strong></p><div id='parent-photo-container'><img id='mom-photo' src='images/g02s07christine.jpg'alt='Mom Photo'><img id='dad-photo' src='images/g02s06gregory.jpg'alt='Dad Photo'></div><div class='logo-container'><ol class='logo-list'><li class='logo-li-item'><a href='' ><img class='logo-image'></a></li><li class='logo-li-item logo-tagline-bot'></li></ol></div>",
+
+                                page_4_qr_code: "<br><br><img id='qr-code' src='images/qr-code.png' alt='QR Code Image'><br><br>",
 
                                 author_salutation: "<div class='author-signature'><p>Created By:</p><img class='author-photo' src='images/g02s06gregory.jpg' alt='Author Photo'><p><i><span class='author'>Gregory Scott Sr.</i></span></p></div>"
                             }
@@ -87,6 +89,8 @@ let tributeData =
     $("#page-3-content").html(tributeData[0].tributee[i].parameters.page_3_content);
 
     $("#page-3-content-2").html(tributeData[0].tributee[i].parameters.page_3_content_2);
+    
+    $("#page-4-content").html(tributeData[0].tributee[i].parameters.page_4_qr_code);
 
     $("title").text("GCS - " + $("#page-1-title-2").text() + " " + $("#title-2").text());
     $("#main-content").html(tributeData[0].tributee[i].parameters.author_salutation);

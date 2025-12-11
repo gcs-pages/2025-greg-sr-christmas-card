@@ -42,7 +42,9 @@ a {
 
 .logo-container {
     margin-top: 25px;
+    clear: left;
  }
+
  .logo-list {
      list-style-type: none;
      margin-left: 0px;
@@ -84,16 +86,6 @@ body {
     border-radius: 50%;
 }
 
-.logo-favicon {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width:  100px;
-    margin-right: 2.5px;
-    border: 1px solid #ffffff;
-    float: left;
-}
-
 .logo-company-name {
     color: #ffffff;
     padding: 5px;
@@ -102,7 +94,6 @@ body {
 }
 
 #page {
-    max-width: 600px;
     margin: 10px auto;
     background-color: #000000;
     color: #ffffff;
@@ -119,14 +110,15 @@ body {
     max-width: 600px;
     text-overflow:      ellipsis;
     overflow:           hidden;
-    background-image:   url("../images/2025-christmas-photo-1.jpg");
+    background-image:   url("../images/2025-christmas-photo-2.jpg");
     background-size:    cover; 
     background-repeat:  round;
     padding: 10px;
     margin: 25px auto;
     background-color: #ffffff;
     color: #000000;
-    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+    border: 5px solid #aa0000;
+/*    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19); */
 }
 #page-2 {
     max-width: 600px;
@@ -134,8 +126,8 @@ body {
     margin: 25px auto;
     background-color: #ffffff;
     color: #000000;
-    border: 1px solid #ff0000;
-    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+    border: 5px solid #aa0000;
+/*    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19); */
 }
 #page-3 {
     max-width: 600px;
@@ -143,8 +135,8 @@ body {
     margin: 25px auto;
     background-color: #ffffff;
     color: #000000;
-    border: 1px solid #ff0000;
-    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+    border: 5px solid #aa0000;
+/*    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19); */
 }
 #page-4 {
     max-width: 600px;
@@ -152,9 +144,10 @@ body {
     margin: 25px auto;
     background-color: #ffffff;
     color: #000000;
-    border: 1px solid #ff0000;
-    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+    border: 5px solid #aa0000;
+/*    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19); */
 }
+
 ol,ul {
     list-style: none;
     margin-left: 5px;
@@ -182,7 +175,6 @@ ol,ul {
     color: #ffffff;
     padding-left: 5px;
     padding-right: 5px;
-/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 .newyear-accent-color {
@@ -192,7 +184,6 @@ ol,ul {
     color: #ffffff;
     padding-left: 5px;
     padding-right: 5px;
-/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 ol {
@@ -243,7 +234,6 @@ li ol li:hover {
     font-style: italic;
     padding-left: 5px;
     padding-right: 5px;
-/*    box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-2-title-1 {
@@ -279,7 +269,6 @@ li ol li:hover {
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid #000000;
-/*   box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-3-title-1 {
@@ -371,7 +360,6 @@ footer {
     margin-bottom: 5px;
     aspect-ratio: 3 / 4;
     border-radius: 50%;
-    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
 }
 
 #page-2-image
@@ -381,14 +369,16 @@ footer {
 
     aspect-ratio: 3 / 4;
     border-radius: 50%;
-    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
+    box-shadow: 12px 12px 16px 0 rgba(47,115,54,0.50),0 17px 50px 0 rgba(47,115,54,0.50);
+
+
+    #2F7336
 }
 
 #page-1-figcaption {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 #page-1-figcaption-text {
@@ -400,7 +390,6 @@ footer {
     margin-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 #page-2-figcaption {
@@ -418,7 +407,18 @@ footer {
     margin-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-/*  box-shadow: 12px 12px 16px 0 rgba(0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+#mom-photo
+ {
+    width:  100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    aspect-ratio: 3 / 4;
+    box-shadow: 12px 12px 16px 0 rgba(47,115,54,0.50),0 17px 50px 0 rgba(47,115,54,0.50);
+    float: left;
 }
 
 #dad-photo
@@ -428,9 +428,15 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     aspect-ratio: 3 / 4;
-    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
+    box-shadow: 12px 12px 16px 0 rgba(47,115,54,0.50),0 17px 50px 0 rgba(47,115,54,0.50);
+    float: left;
 }
-#mom-photo
+
+#parent-photo-container {
+    float: left;
+}
+
+#qr-code
  {
     width:  100px;
     height: 100px;
@@ -438,9 +444,7 @@ footer {
     margin-bottom: 5px;
     margin-right: 15px;
     aspect-ratio: 3 / 4;
-    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
 }
-
 .text-center {
     text-align: center;
 }
