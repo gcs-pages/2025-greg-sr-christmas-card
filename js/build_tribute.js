@@ -37,7 +37,7 @@ let tributeData =
 
                                 page_2_image: "images/2025-new-year-photo-1.jpg",
 
-                                page_2_caption: "<span id='page-2-figcaption-text'><i><strong>Celebrate Safely & Responsibly!</i></strong></span>",
+                                page_2_caption: "<span id='page-2-figcaption-text'><i><strong>Celebrate Safely & Responsibly . . .</i></strong></span>",
 
                                 page_3_title_1: "<span class='christmas-accent-color'><strong><i>Merry Christmas</i></strong></span>",
                                 
